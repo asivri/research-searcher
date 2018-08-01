@@ -6,6 +6,7 @@
 
 <script>
     export default {
+        name: 'SearchBar',
         methods: {
             onSearchBar: function(event)
             {
