@@ -20,6 +20,9 @@ import axios from 'axios';
         {
           console.log("In the function!");
           axios.get("https://api.elsevier.com/content/search/scidir", {
+            headers: {
+              'Access-Control-Allow-Origin': '*',
+            },
             params: {
             query: querySearch,
             apiKey: API_KEY
