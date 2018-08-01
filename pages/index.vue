@@ -39,7 +39,7 @@ import axios from 'axios';
             apiKey: API_KEY
           }
           }).then(function(response){
-            console.log(response.data);
+            console.log(response.data); //TODO: Data should manipulate
             // this.papers=response.data.searc;
           })
           .catch(function(error){
